@@ -32,10 +32,10 @@
 
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
-| 1   | Style.css is not filled                                    |         Narain |     Vibhu    |
+| 1   | Style.css is not filled                                    |         Narain |     Whole Team     |
 | 2   | In index.html character encoding is ISO 8859-1 it Should be UTF-8 to include special characters emojis etc.                                        |   Navey            | Navey             |
 | 3   | In quiz.py, missing data validation for `/answer` input (resolved by adding a Pydantic model).                                        | Aashuthosh             | Aashuthosh             |
-| 4   | in profile.html script is given as "styles/profile.js" changed to "scripts/profile.js"                                        |  Vibhu             |   Vibhu          |
+| 4   |                                          |               |              |
 | 5   | in index.html Removed outdated XHTML 1.0 Strict DOCTYPE, replaced with HTML5 DOCTYPE                                     |       Navey        |    Navey          |
 | 7   |  in index.html Added active class for current page indication                                   |      Navey         |   Navey           |
 | 8   |                                          |               |              |
@@ -47,7 +47,7 @@
 | 14  | Item class does not inherit from BaseModel                                         | Dev   | Dev             |
 | 15  | Item name has datatype int intstead of str                                         | Dev              | Dev             |
 | 16  |                                          |               |              |
-| 17  |                                          |               |              |
+| 17  |                                          |               |          in items.html missing container added it    |Navey                          Navey
 | 18  |                                          |               |              |
 | 19  |                                          |               |              |
 | 20  |                                          |               |              |
