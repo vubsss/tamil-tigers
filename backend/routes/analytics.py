@@ -33,9 +33,9 @@ async def get_analytics():
     item_count = len(items)
     user_count = len(users)
     
-    item_name_lengths = np.array([len(item.get("names", "")) for item in items]) 
-    user_username_lengths = np.array([len(user.get("usernames", "")) for user in users])  
-
+    item_name_lengths = np.array([len(item["name"]) for item in items]) if items else np.array([])
+    user_username_lengths = np.array([len(user["username"]) for user in users]) if users else np.array([])
+    
     stats = {
         "item_count": item_count,
         "user_count": user_count,
@@ -67,5 +67,5 @@ async def get_analytics():
     
     return JSONResponse({
         "stats": stats,
-        "chart_image": f"data:image/png;base64,{image_base64}"
+        "plot": f"data:image/png;base64,{image_base64}"
     })
