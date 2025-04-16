@@ -37,7 +37,7 @@
 | 3   | In quiz.py, missing data validation for `/answer` input (resolved by adding a Pydantic model).                                        | Aashuthosh             | Aashuthosh             |
 | 4   |                                          |               |              |
 | 5   | in index.html Removed outdated XHTML 1.0 Strict DOCTYPE, replaced with HTML5 DOCTYPE                                     |       Navey        |    Navey          |
-| 7   |                                          |               |              |
+| 7   |  in index.html Added active class for current page indication                                   |      Navey         |   Navey           |
 | 8   |                                          |               |              |
 | 9   |                                          |               |              |
 | 10  |                                          |               |              |
