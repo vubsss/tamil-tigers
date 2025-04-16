@@ -48,8 +48,8 @@
 | 15  | Item name has datatype int intstead of str                                         | Dev              | Dev             |
 | 16  |                                          |               |              |
 | 17  |                 in items.html missing container added it                          |              Navey |       Navey      |                          Navey
-| 18  |                                          |               |              |
-| 19  |                                          |               |              |
+| 18  |   In quiz.py, the submit_answer endpoint uses @router.get("/answer") but expects a body, so it should be changed to @router.post("/answer") with a Pydantic model for input validation.                                      |  Aashuthosh             |  Aashuthosh            |
+| 19  |    In quix.py, the submit_answer endpoint doesn't verify if the answer is valid, so add a check to ensure the answer is in the question's options before processing it.                                      |   Aashuthosh            |  Aashuthosh            |
 | 20  |                                          |               |              |
 | 21  |                                          |               |              |
 | 22  |                                          |               |              |
