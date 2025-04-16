@@ -32,7 +32,7 @@
 
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
-| 1   | Style.css is not filled                                    |         Narain |     Whole Team     |
+| 1   | Style.css is not filled                                    |         Narain |     Vibhu   |
 | 2   | In index.html character encoding is ISO 8859-1 it Should be UTF-8 to include special characters emojis etc.                                        |   Navey            | Navey             |
 | 3   | In quiz.py, missing data validation for `/answer` input (resolved by adding a Pydantic model).                                        | Aashuthosh             | Aashuthosh             |
 | 4   | in profile.html script is given as "styles/profile.js" changed to "scripts/profile.js"                                        |  Vibhu             |   Vibhu          |
@@ -43,9 +43,9 @@
 | 10  |     Used .get() to safely access dict keys in analytics.py                                     |  Nihar             |  Nihar            |
 | 11  |     Added the base64 image to the response JSON in analytics.py                                     |  Nihar             |  Nihar            |
 | 12  |                                          |               |              |
-| 13  |                                          |               |              |
-| 14  | Item class does not inherit from BaseModel                                         | Dev   | Dev             |
-| 15  | Item name has datatype int intstead of str                                         | Dev              | Dev             |
+| 13  | in items.py the router is incorrectly initialized as an empty dictionary instead of as an APIRouter instance                                         | Dev              | Dev             |
+| 14  | in models.py Item class does not inherit from BaseModel                                         | Dev   | Dev             |
+| 15  | in models.py Item name has datatype int intstead of str                                         | Dev              | Dev             |
 | 16  |                                          |               |              |
 | 17  |                 in items.html missing container added it                          |              Navey |       Navey      |                          Navey
 | 18  |   In quiz.py, the submit_answer endpoint uses @router.get("/answer") but expects a body, so it should be changed to @router.post("/answer") with a Pydantic model for input validation.                                      |  Aashuthosh             |  Aashuthosh            |
@@ -60,4 +60,4 @@
 | 27  |                                          |               |              |
 | 28  |  baseURL not defined in profile.js                                        |    Vibhu           |       Vibhu       |
 | 29  |  changed userCount to userCounts in profile.js                                        | Vibhu              |  Vibhu           |
-| 30  |                                          |               |              |
+| 30  |  changed PATCH to DELETE in profile.js                                        | Vibhu         | Vibhu             |
