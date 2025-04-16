@@ -39,7 +39,7 @@
 | 5   | in index.html Removed outdated XHTML 1.0 Strict DOCTYPE, replaced with HTML5 DOCTYPE                                     |       Navey        |    Navey          |
 | 7   |  in index.html Added active class for current page indication                                   |      Navey         |   Navey           |
 | 8   |    Replace question = questions[1] with question = random.choice(questions) to select random questions for variety.                                     |   Aashuthosh            |  Aashuthosh            |
-| 9   |                                          |               |              |
+| 9   |       hi                                   |               |              |
 | 10  |                                          |               |              |
 | 11  |                                          |               |              |
 | 12  |                                          |               |              |
