@@ -45,8 +45,8 @@
 | 11  |                                          |               |              |
 | 12  |                                          |               |              |
 | 13  |                                          |               |              |
-| 14  |                                          |               |              |
-| 15  |                                          |               |              |
+| 14  | Item class does not inherit from BaseModel                                         | Dev   | Dev             |
+| 15  | Item name has datatype int intstead of str                                         | Dev              | Dev             |
 | 16  |                                          |               |              |
 | 17  |                                          |               |              |
 | 18  |                                          |               |              |
