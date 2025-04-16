@@ -60,4 +60,4 @@
 | 27  |                                          |               |              |
 | 28  |  baseURL not defined in profile.js                                        |    Vibhu           |       Vibhu       |
 | 29  |  changed userCount to userCounts in profile.js                                        | Vibhu              |  Vibhu           |
-| 30  |  changed PATCH to DELETE in profile.js                                        | Vibhu              | Vibhu             |
+| 30  |  changed PATCH to DELETE in profile.js                                        | Vibhu         | Vibhu             |
