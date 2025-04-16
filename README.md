@@ -43,9 +43,9 @@
 | 10  |                                          |               |              |
 | 11  |                                          |               |              |
 | 12  |                                          |               |              |
-| 13  |                                          |               |              |
-| 14  | Item class does not inherit from BaseModel                                         | Dev   | Dev             |
-| 15  | Item name has datatype int intstead of str                                         | Dev              | Dev             |
+| 13  | in items.py the router is incorrectly initialized as an empty dictionary instead of as an APIRouter instance                                         | Dev              | Dev             |
+| 14  | in models.py Item class does not inherit from BaseModel                                         | Dev   | Dev             |
+| 15  | in models.py Item name has datatype int intstead of str                                         | Dev              | Dev             |
 | 16  |                                          |               |              |
 | 17  |                 in items.html missing container added it                          |              Navey |       Navey      |                          Navey
 | 18  |   In quiz.py, the submit_answer endpoint uses @router.get("/answer") but expects a body, so it should be changed to @router.post("/answer") with a Pydantic model for input validation.                                      |  Aashuthosh             |  Aashuthosh            |
