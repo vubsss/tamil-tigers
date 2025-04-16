@@ -53,7 +53,7 @@
 | 20  |  IN users.py, changed @router.post("/") to @router.get("/") for get_users to use the correct HTTP method.                                        |  Aashuthosh             |  Aashuthosh            |
 | 21  | In users.py, changed result = await collection.delete_all() to result = await collection.delete_one({"_id": ObjectId(user_id)}) in delete_user to delete only the specified user.                                         | Aashuthosh              |  Aashuthosh            |
 | 22  | In users.py, added try: and except ValueError: raise HTTPException(status_code=400, detail="Invalid user ID format") in delete_user to handle invalid user_id formats.                                         |  Aashuthosh             |  Aashuthosh            |
-| 23  |                                          |               |              |
+| 23  |   In db.py, changed db[item] to db[items] because of naming discrepancy                                       | Aashuthosh              |  Aashuthosh            |
 | 24  |                                          |               |              |
 | 25  |                                          |               |              |
 | 26  |                                          |               |              |
