@@ -42,7 +42,7 @@
 | 3   | In quiz.py, missing data validation for `/answer` input (resolved by adding a Pydantic model).                                        | Aashuthosh             | Aashuthosh             |
 | 4   | in profile.html script is given as "styles/profile.js" changed to "scripts/profile.js"                                        |  Vibhu             |   Vibhu          |
 | 5   | in index.html Removed outdated XHTML 1.0 Strict DOCTYPE, replaced with HTML5 DOCTYPE                                     |       Navey        |    Navey          |
-| 6   | 
+| 6   | added questions in quiz.py | Dev | Dev |
 | 7   |  in index.html Added active class for current page indication                                   |      Navey         |   Navey           |
 | 8   |    Replace question = questions[1] with question = random.choice(questions) to select random questions for variety.                                     |   Aashuthosh            |  Aashuthosh            |
 | 9   |  Removed dummy list and fetched real users from DB in analytics.py                                    | Nihar              |   Nihar           |
@@ -61,8 +61,6 @@
 | 22  | In users.py, added try: and except ValueError: raise HTTPException(status_code=400, detail="Invalid user ID format") in delete_user to handle invalid user_id formats.                                         |  Aashuthosh             |  Aashuthosh            |
 | 23  |   In db.py, changed db[item] to db[items] because of naming discrepancy                                       | Aashuthosh              |  Aashuthosh            |
 | 24  |    changed main.py prefix                                      |     Vibhu     |     Vibhu       |
-| 25  |                                          |               |              |
-| 24  |                                          |               |              |
 | 25  |   in items.js changed post to delete                                       |   Navey            |    Navey          |
 | 26  |    in news.html missing container added it                                      | Navey              |    Navey          |
 | 27  |     In main.py, made changes to import the user management router and include user management API endpoints                                     |        Nihar       |    Nihar          |
