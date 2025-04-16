@@ -28,6 +28,11 @@
 
 - Name : Roll Number
 - Dev Patel : 2024101104
+- Navey Puri: 2024101082
+- Vibhu Nimalan Bharathi: 2024115014
+- Nihar MANOJ Gupta: 2024115002
+- Aashuthosh S Sharma: 2024117006
+
 ### Table to keep track
 
 | ID  | Issue Description                        | Identified By | Fixed By     |
@@ -55,8 +60,13 @@
 | 21  | In users.py, changed result = await collection.delete_all() to result = await collection.delete_one({"_id": ObjectId(user_id)}) in delete_user to delete only the specified user.                                         | Aashuthosh              |  Aashuthosh            |
 | 22  | In users.py, added try: and except ValueError: raise HTTPException(status_code=400, detail="Invalid user ID format") in delete_user to handle invalid user_id formats.                                         |  Aashuthosh             |  Aashuthosh            |
 | 23  |   In db.py, changed db[item] to db[items] because of naming discrepancy                                       | Aashuthosh              |  Aashuthosh            |
+<<<<<<< HEAD
 | 24  |    changed main.py prefix                                      |     Vibhu     |     Vibhu       |
 | 25  |                                          |               |              |
+=======
+| 24  |                                          |               |              |
+| 25  |   in items.js changed post to delete                                       |   Navey            |    Navey          |
+>>>>>>> 1f2ad8e40e088caaaa0ad7fd58529fdfccb3b419
 | 26  |    in news.html missing container added it                                      | Navey              |    Navey          |
 | 27  |     In main.py, made changes to import the user management router and include user management API endpoints                                     |        Nihar       |    Nihar          |
 | 28  |  baseURL not defined in profile.js                                        |    Vibhu           |       Vibhu       |
