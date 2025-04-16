@@ -52,7 +52,7 @@
 | 13  | in items.py the router is incorrectly initialized as an empty dictionary instead of as an APIRouter instance                                         | Dev              | Dev             |
 | 14  | in models.py Item class does not inherit from BaseModel                                         | Dev   | Dev             |
 | 15  | in models.py Item name has datatype int intstead of str                                         | Dev              | Dev             |
-| 16  |                                          |               |              |
+| 16  |  in main.py added CORS                                        | Dev              | Dev             |
 | 17  |                 in items.html missing container added it                          |              Navey |       Navey      |                          Navey
 | 18  |   In quiz.py, the submit_answer endpoint uses @router.get("/answer") but expects a body, so it should be changed to @router.post("/answer") with a Pydantic model for input validation.                                      |  Aashuthosh             |  Aashuthosh            |
 | 19  |    In quiz.py, the submit_answer endpoint doesn't verify if the answer is valid, so add a check to ensure the answer is in the question's options before processing it.                                      |   Aashuthosh            |  Aashuthosh            |
@@ -60,13 +60,10 @@
 | 21  | In users.py, changed result = await collection.delete_all() to result = await collection.delete_one({"_id": ObjectId(user_id)}) in delete_user to delete only the specified user.                                         | Aashuthosh              |  Aashuthosh            |
 | 22  | In users.py, added try: and except ValueError: raise HTTPException(status_code=400, detail="Invalid user ID format") in delete_user to handle invalid user_id formats.                                         |  Aashuthosh             |  Aashuthosh            |
 | 23  |   In db.py, changed db[item] to db[items] because of naming discrepancy                                       | Aashuthosh              |  Aashuthosh            |
-<<<<<<< HEAD
 | 24  |    changed main.py prefix                                      |     Vibhu     |     Vibhu       |
 | 25  |                                          |               |              |
-=======
 | 24  |                                          |               |              |
 | 25  |   in items.js changed post to delete                                       |   Navey            |    Navey          |
->>>>>>> 1f2ad8e40e088caaaa0ad7fd58529fdfccb3b419
 | 26  |    in news.html missing container added it                                      | Navey              |    Navey          |
 | 27  |     In main.py, made changes to import the user management router and include user management API endpoints                                     |        Nihar       |    Nihar          |
 | 28  |  baseURL not defined in profile.js                                        |    Vibhu           |       Vibhu       |
