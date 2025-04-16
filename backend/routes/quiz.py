@@ -65,7 +65,7 @@ async def submit_answer(data: AnswerRequest):
     if not question:
         return {"error": "Invalid question ID"}
 
-    if answer not in question["options"]:
+    if answer not in question["options"]: # <-- CHANGED
         return {"error": "Invalid answer option"}
     
     is_correct = answer == question["correct"]
