@@ -10,7 +10,7 @@ app.include_router(analytics_router, prefix="/analytics",tags=["analytics"])
 app.include_router(quiz_router, prefix="/quiz",tags=["quiz"]) #changes
 app.include_router(users_router, prefix="/users",tags=["users"])
 
-# why the hell did I write this function?
+# why the hell did I write this function? 
 @app.get("/home")
 async def get_home():
     return {"message": "Welcome to the Multi-Page FastAPI App!"}
