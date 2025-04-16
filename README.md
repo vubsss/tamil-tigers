@@ -32,9 +32,9 @@
 
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
-| 1   | Style.css is not filled                                    |         Narain |     Whole Team     |
+| 1   | Style.css is not filled                                    |         Narain |     Vibhu    |
 | 2   | In index.html character encoding is ISO 8859-1 it Should be UTF-8 to include special characters emojis etc.                                        |   Navey            | Navey             |
-| 3   | In quiz.py, replaced question = questions[1] with question = random.choice(questions) to select a random question for variety.                                        | Aashuthosh             | Aashuthosh             |
+| 3   | In quiz.py, missing data validation for `/answer` input (resolved by adding a Pydantic model).                                        | Aashuthosh             | Aashuthosh             |
 | 4   |                                          |               |              |
 | 5   |                                          |               |              |
 | 6   |                                          |               |              |
