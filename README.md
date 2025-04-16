@@ -28,6 +28,7 @@
 
 - Name : Roll Number
 - Dev Patel : 2024101104
+- Navey Puri: 2024101082
 ### Table to keep track
 
 | ID  | Issue Description                        | Identified By | Fixed By     |
