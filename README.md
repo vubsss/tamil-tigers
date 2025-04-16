@@ -56,15 +56,9 @@
 | 22  | In users.py, added try: and except ValueError: raise HTTPException(status_code=400, detail="Invalid user ID format") in delete_user to handle invalid user_id formats.                                         |  Aashuthosh             |  Aashuthosh            |
 | 23  |   In db.py, changed db[item] to db[items] because of naming discrepancy                                       | Aashuthosh              |  Aashuthosh            |
 | 24  |                                          |               |              |
-<<<<<<< HEAD
-| 25  |  Consistent Navbars                                        |    Vibhu           |   Vibhu           |
-| 26  |                                          |               |              |
-| 27  |   In main.py, added app.include_router(users_router, prefix="/users") to include the user management API endpoints.                                       |   Nihar            |  Nihar            |
-=======
 | 25  |                                          |               |              |
 | 26  |    in news.html missing container added it                                      | Navey              |    Navey          |
 | 27  |                                          |               |              |
->>>>>>> 59eb0cb (error navey)
 | 28  |  baseURL not defined in profile.js                                        |    Vibhu           |       Vibhu       |
 | 29  |  changed userCount to userCounts in profile.js                                        | Vibhu              |  Vibhu           |
 | 30  |  changed PATCH to DELETE in profile.js                                        | Vibhu         | Vibhu             |
