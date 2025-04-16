@@ -48,7 +48,7 @@
 | 9   |  Removed dummy list and fetched real users from DB in analytics.py                                    | Nihar              |   Nihar           |
 | 10  |     Used .get() to safely access dict keys in analytics.py                                     |  Nihar             |  Nihar            |
 | 11  |     Added the base64 image to the response JSON in analytics.py                                     |  Nihar             |  Nihar            |
-| 12  |                                          |               |              |
+| 12  | items.py has 2 POST requests reduced to 1                                         | Dev              | Dev             |
 | 13  | in items.py the router is incorrectly initialized as an empty dictionary instead of as an APIRouter instance                                         | Dev              | Dev             |
 | 14  | in models.py Item class does not inherit from BaseModel                                         | Dev   | Dev             |
 | 15  | in models.py Item name has datatype int intstead of str                                         | Dev              | Dev             |
