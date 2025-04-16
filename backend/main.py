@@ -5,10 +5,10 @@ from routes.quiz import router as quiz_router
 from routes.users import router as users_router
 app = FastAPI()
 
-app.include_router(items_router, prefix="/items")
-app.include_router(analytics_router)
-app.include_router(quiz_router)
-app.include_router(users_router, prefix="/users")
+app.include_router(items_router, prefix="/items",tags=["items"])
+app.include_router(analytics_router, prefix="/analytics",tags=["analytics"])
+app.include_router(quiz_router, prefix="/quiz",tags=["quiz"]) #changes
+app.include_router(users_router, prefix="/users",tags=["users"])
 
 # why the hell did I write this function?
 @app.get("/home")

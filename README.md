@@ -55,7 +55,7 @@
 | 21  | In users.py, changed result = await collection.delete_all() to result = await collection.delete_one({"_id": ObjectId(user_id)}) in delete_user to delete only the specified user.                                         | Aashuthosh              |  Aashuthosh            |
 | 22  | In users.py, added try: and except ValueError: raise HTTPException(status_code=400, detail="Invalid user ID format") in delete_user to handle invalid user_id formats.                                         |  Aashuthosh             |  Aashuthosh            |
 | 23  |   In db.py, changed db[item] to db[items] because of naming discrepancy                                       | Aashuthosh              |  Aashuthosh            |
-| 24  |                                          |               |              |
+| 24  |    changed main.py prefix                                      |     Vibhu     |     Vibhu       |
 | 25  |                                          |               |              |
 | 26  |    in news.html missing container added it                                      | Navey              |    Navey          |
 | 27  |     In main.py, made changes to import the user management router and include user management API endpoints                                     |        Nihar       |    Nihar          |
