@@ -47,7 +47,7 @@
 | 14  | Item class does not inherit from BaseModel                                         | Dev   | Dev             |
 | 15  | Item name has datatype int intstead of str                                         | Dev              | Dev             |
 | 16  |                                          |               |              |
-| 17  |                                          |               |          in items.html missing container added it    |Navey                          Navey
+| 17  |                 in items.html missing container added it                          |              Navey |       Navey      |                          Navey
 | 18  |                                          |               |              |
 | 19  |                                          |               |              |
 | 20  |                                          |               |              |
