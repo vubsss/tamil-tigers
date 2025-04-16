@@ -1,3 +1,4 @@
+const baseURL = 'http://localhost:3000'; //baseurl not defined
 
 async function loadUsers() {
   const res = await fetch(`/users`);
@@ -5,7 +6,7 @@ async function loadUsers() {
   const list = document.getElementById("userList");
   list.innerHTML = "";
   
-  document.getElementById("userCount").textContent = `Total users: ${users.length}`;
+  document.getElementById("userCounts").textContent = `Total users: ${users.length}`; //userCount to userCounts
   // why did I give such a weird task
   users.forEach(user => {
     const li = document.createElement("li");
