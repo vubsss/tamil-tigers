@@ -1,4 +1,5 @@
 from fastapi import APIRouter
+from pydantic import BaseModel  # <-- CHANGED
 import random
 
 router = APIRouter(tags=["quiz"])
