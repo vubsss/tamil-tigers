@@ -55,7 +55,7 @@
 | 22  | In users.py, added try: and except ValueError: raise HTTPException(status_code=400, detail="Invalid user ID format") in delete_user to handle invalid user_id formats.                                         |  Aashuthosh             |  Aashuthosh            |
 | 23  |   In db.py, changed db[item] to db[items] because of naming discrepancy                                       | Aashuthosh              |  Aashuthosh            |
 | 24  |                                          |               |              |
-| 25  |                                          |               |              |
+| 25  |  Consistent Navbars                                        |    Vibhu           |   Vibhu           |
 | 26  |                                          |               |              |
 | 27  |                                          |               |              |
 | 28  |  baseURL not defined in profile.js                                        |    Vibhu           |       Vibhu       |
