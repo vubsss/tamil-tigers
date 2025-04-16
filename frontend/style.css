@@ -1,2 +1,27 @@
-Aah I was too lazy to implement this
-You can do it
+/*Aah I was too lazy to implement this
+You can do it*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+    height: 100vh;
+}
+
+nav {
+    background-color: #0D4974;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 5px;
+}
+
+
