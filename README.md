@@ -57,7 +57,7 @@
 | 24  |                                          |               |              |
 | 25  |                                          |               |              |
 | 26  |    in news.html missing container added it                                      | Navey              |    Navey          |
-| 27  |                                          |               |              |
+| 27  |     In main.py, made changes to import the user management router and include user management API endpoints                                     |        Nihar       |    Nihar          |
 | 28  |  baseURL not defined in profile.js                                        |    Vibhu           |       Vibhu       |
 | 29  |  changed userCount to userCounts in profile.js                                        | Vibhu              |  Vibhu           |
 | 30  |  changed PATCH to DELETE in profile.js                                        | Vibhu         | Vibhu             |
