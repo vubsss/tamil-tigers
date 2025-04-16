@@ -9,8 +9,6 @@ async function loadNews(searchTerm = "", source = "all", reset = false) {
   const list = document.getElementById("newsList");
   const loading = document.getElementById("loading");
   
-  if (!list || !loading) return; // Guard clause for missing elements
-  
   if (reset) {
     allArticles = [];
     list.innerHTML = "";
@@ -22,12 +20,7 @@ async function loadNews(searchTerm = "", source = "all", reset = false) {
     const selectedFeeds = source === "all" ? feeds : feeds.filter(f => f.name === source);
     
     for (const feed of selectedFeeds) {
-      const res = await fetch(`${rssConverter}${encodeURIComponent(feed.url)}`, {
-        mode: 'cors', // Added CORS mode
-        headers: {
-          'Accept': 'application/json'
-        }
-      });
+      const res = await fetch(`${rssConverter}${encodeURIComponent(feed.url)}`);
       if (!res.ok) throw new Error(`Failed to fetch ${feed.name}`);
       const data = await res.json();
       
@@ -49,11 +42,8 @@ async function loadNews(searchTerm = "", source = "all", reset = false) {
         )
       : allArticles;
     
-    const articleCount = document.getElementById("articleCount");
-    if (articleCount) {
-      articleCount.textContent = `Total articles: ${filteredArticles.length}`;
-    }
-    
+    document.getElementById("articleCount").textContent = `Total articles: ${filteredArticles.length}`;
+    // OPINION: Javascript syntax is stupid
     list.innerHTML = "";
     filteredArticles.forEach(article => {
       const div = document.createElement("div");
@@ -68,26 +58,23 @@ async function loadNews(searchTerm = "", source = "all", reset = false) {
     });
     
   } catch (err) {
-    list.innerHTML += `<p style="color: red;">Error: ${err.message}</p>`;
+    console.error("News loading error:", err);
+    list.innerHTML += `<p style="color: red;">Error loading news: ${err.message}</p>`;
+    document.getElementById("articleCount").textContent = `Error loading articles`;
   } finally {
     loading.style.display = "none";
   }
 }
 
-// Add event listeners for search and source selection
-const searchInput = document.getElementById("search");
-const sourceSelect = document.getElementById("source");
-
-if (searchInput) {
-  searchInput.addEventListener("input", (e) => {
-    loadNews(e.target.value, sourceSelect?.value || "all", true);
-  });
-}
-
-if (sourceSelect) {
-  sourceSelect.addEventListener("change", (e) => {
-    loadNews(searchInput?.value || "", e.target.value, true);
-  });
-}
 
 loadNews();
+
+// News Search Not Implemented
+document.getElementById("search").addEventListener("input", (e) => {
+  loadNews(e.target.value, document.getElementById("source").value, true);
+});
+
+// Source Filter Not Implemented in News
+document.getElementById("source").addEventListener("change", (e) => {
+  loadNews(document.getElementById("search").value, e.target.value, true);
+});
