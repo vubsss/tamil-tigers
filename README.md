@@ -39,13 +39,13 @@
 | 5   | in index.html Removed outdated XHTML 1.0 Strict DOCTYPE, replaced with HTML5 DOCTYPE                                     |       Navey        |    Navey          |
 | 7   |  in index.html Added active class for current page indication                                   |      Navey         |   Navey           |
 | 8   |    Replace question = questions[1] with question = random.choice(questions) to select random questions for variety.                                     |   Aashuthosh            |  Aashuthosh            |
-| 9   |       hi            man                       |               |              |
-| 10  |                                          |               |              |
-| 11  |                                          |               |              |
+| 9   |  Removed dummy list and fetched real users from DB in analytics.py                                    | Nihar              |   Nihar           |
+| 10  |     Used .get() to safely access dict keys in analytics.py                                     |  Nihar             |  Nihar            |
+| 11  |     Added the base64 image to the response JSON in analytics.py                                     |  Nihar             |  Nihar            |
 | 12  |                                          |               |              |
-| 13  |                                          |               |              |
-| 14  | Item class does not inherit from BaseModel                                         | Dev   | Dev             |
-| 15  | Item name has datatype int intstead of str                                         | Dev              | Dev             |
+| 13  | in items.py the router is incorrectly initialized as an empty dictionary instead of as an APIRouter instance                                         | Dev              | Dev             |
+| 14  | in models.py Item class does not inherit from BaseModel                                         | Dev   | Dev             |
+| 15  | in models.py Item name has datatype int intstead of str                                         | Dev              | Dev             |
 | 16  |                                          |               |              |
 | 17  |                 in items.html missing container added it                          |              Navey |       Navey      |                          Navey
 | 18  |   In quiz.py, the submit_answer endpoint uses @router.get("/answer") but expects a body, so it should be changed to @router.post("/answer") with a Pydantic model for input validation.                                      |  Aashuthosh             |  Aashuthosh            |
@@ -60,4 +60,4 @@
 | 27  |                                          |               |              |
 | 28  |  baseURL not defined in profile.js                                        |    Vibhu           |       Vibhu       |
 | 29  |  changed userCount to userCounts in profile.js                                        | Vibhu              |  Vibhu           |
-| 30  |  changed PATCH to DELETE in profile.js                                        | Vibhu              | Vibhu             |
+| 30  |  changed PATCH to DELETE in profile.js                                        | Vibhu         | Vibhu             |
