@@ -1,3 +1,9 @@
+### Repo Link
+- https://github.com/vubsss/tamil-tigers
+
+- one commit may or may not have more than one changes
+- love you <3
+
 ### Fixing the Buggy Code
 
 - This code has 30 issues out of which 1 is no code in style.css . 
