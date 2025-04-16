@@ -59,5 +59,5 @@
 | 26  |                                          |               |              |
 | 27  |                                          |               |              |
 | 28  |  baseURL not defined in profile.js                                        |    Vibhu           |       Vibhu       |
-| 29  |                                          |               |              |
+| 29  |  changed userCount to userCounts in profile.js                                        | Vibhu              |  Vibhu           |
 | 30  |                                          |               |              |
