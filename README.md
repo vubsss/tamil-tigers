@@ -36,8 +36,7 @@
 | 2   | In index.html character encoding is ISO 8859-1 it Should be UTF-8 to include special characters emojis etc.                                        |   Navey            | Navey             |
 | 3   | In quiz.py, missing data validation for `/answer` input (resolved by adding a Pydantic model).                                        | Aashuthosh             | Aashuthosh             |
 | 4   |                                          |               |              |
-| 5   |                                          |               |              |
-| 6   |                                          |               |              |
+| 5   | in index.html Removed outdated XHTML 1.0 Strict DOCTYPE, replaced with HTML5 DOCTYPE                                     |       Navey        |    Navey          |
 | 7   |                                          |               |              |
 | 8   |                                          |               |              |
 | 9   |                                          |               |              |
