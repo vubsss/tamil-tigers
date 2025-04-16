@@ -39,9 +39,9 @@
 | 5   | in index.html Removed outdated XHTML 1.0 Strict DOCTYPE, replaced with HTML5 DOCTYPE                                     |       Navey        |    Navey          |
 | 7   |  in index.html Added active class for current page indication                                   |      Navey         |   Navey           |
 | 8   |    Replace question = questions[1] with question = random.choice(questions) to select random questions for variety.                                     |   Aashuthosh            |  Aashuthosh            |
-| 9   |       hi            man                       |               |              |
-| 10  |                                          |               |              |
-| 11  |                                          |               |              |
+| 9   |  Removed dummy list and fetched real users from DB in analytics.py                                    | Nihar              |   Nihar           |
+| 10  |     Used .get() to safely access dict keys in analytics.py                                     |  Nihar             |  Nihar            |
+| 11  |     Added the base64 image to the response JSON in analytics.py                                     |  Nihar             |  Nihar            |
 | 12  |                                          |               |              |
 | 13  |                                          |               |              |
 | 14  | Item class does not inherit from BaseModel                                         | Dev   | Dev             |
